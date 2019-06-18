@@ -1,5 +1,5 @@
 var topics = [ "Les Brown", "CT Fletcher", "Eric Thomas", "Mahatma Gandhi", "Zig Zigular", "Will Smith", "TD Jakes", "Steven Furtick", 
-"Nipsy Hussle", "Idris Sudda" ]
+"Nipsy Hussle", "Idris Elba" ]
 
 $("button").on("click", function(){
     //In this case, the "this" keyword refers to the button that was clicked
@@ -7,7 +7,7 @@ var person = $(this).attr("data-person");
 
 //Makine a URL to seach for Giphy with the person's name
 var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + 
-person + "&api_key=c1e416ff=10";
+person + "&api_key=a77oCOqZMGAeexw7MYiyjLuR7Ac76J2U";
 
 
 //Performing our AJAX GET request
